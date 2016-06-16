@@ -1,0 +1,6 @@
+---
+- name: Start my awesome playbook
+  hosts: all
+
+  tasks:
+    - shell: date >> /tmp/date.log
